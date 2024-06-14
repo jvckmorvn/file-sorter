@@ -1,7 +1,6 @@
 package org.filesorter;
 
 import javafx.application.Application;
-import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
@@ -48,7 +47,7 @@ public class FileSorterApp extends Application {
         VBox vbox = new VBox(gridPane);
         vbox.setAlignment(Pos.CENTER);
 
-        Scene scene = new Scene(vbox, 400, 300);
+        Scene scene = new Scene(vbox, 400, 200);
 
         primaryStage.setScene(scene);
         primaryStage.show();
